@@ -1,0 +1,7 @@
+services:
+  api:
+    image: saadahmed777/lab6-linear-api:v1
+    container_name: linear-api
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
